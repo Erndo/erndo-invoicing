@@ -1,0 +1,30 @@
+{
+  "name": "erndo-invoicing",
+  "version": "1.0.0",
+  "description": "Invoice creation for Erndo Businesses",
+  "main": "handler.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "serverless-plugin-typescript": "^0.2.0",
+    "typescript": "https://registry.npmjs.org/typescript/-/typescript-2.3.3.tgz"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.63"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy -v",
+    "logs": "serverless logs -f hello -t",
+    "invoke": " serverless invoke -f hello -l"
+  },
+  "author": "Doguhan Uluca",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erndo/erndo-invoicing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Erndo/erndo-invoicing/issues"
+  },
+  "homepage": "https://github.com/Erndo/erndo-invoicing#readme"
+}
